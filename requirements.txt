@@ -1,0 +1,16 @@
+# Web Framework
+fastapi==0.127.0
+uvicorn==0.34.0
+
+# File Upload Support
+python-multipart==0.0.20
+
+# Text-to-Speech
+edge-tts==7.2.7
+
+# HTTP Client (dependency for edge-tts)
+aiohttp==3.13.2
+certifi==2025.11.12
+
+# Note: ffmpeg and ffprobe must be installed separately and available in system PATH
+# Download from: https://ffmpeg.org/download.html
